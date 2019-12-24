@@ -18,6 +18,7 @@ Implemantor arayüzü ile operasyonlar tanımlanır ve ConcreteImplemantorlar bu
 Bridge tasarım deseni ile ilgili basit bir örnek uygulama. Uygulamada veri tabanı yapısını ele alalım. Uygulama birden fazla veri tabanı desteği veriyor olsun ve execute, connection açma gibi operasyonlar her veri tabanı için farklı olsun. Uygulamanın class diyagramı;
 ![enter image description here](http://harunozer.com/image/mr/BridgeClassDiagram.png)
 
+## Code
     //Implementor  
     abstract class DbImplementor  
     {  
